@@ -1,0 +1,26 @@
+# GCP & Secrets
+gcp-credentials.json
+*.json
+
+# Power BI (données sensibles)
+*.pbix
+
+# Fichiers de données générés (trop volumineux)
+*.csv
+
+# Environnements Python
+venv/
+env/
+__pycache__/
+*.pyc
+.python-version
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
